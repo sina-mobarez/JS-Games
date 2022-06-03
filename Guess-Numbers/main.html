@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Numbers</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+
+    <section>
+        <div class="row">
+            <div class="center">
+                <h5 id="message"> Guess Numbers to win</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="main">
+                <div class="game flex-container"></div>
+                <br>
+                <div id="winner"></div>
+            </div>
+            
+            <div class="side">
+                <label for="level">Choose Level :</label>
+                <select name="level" id="level">
+                    <option value="hard">Hard</option>
+                    <option value="normal">Normal</option>
+                    <option value="easy">Easy</option>
+                </select>
+                <br>
+                <button type="submit" value="Start Game" id="btn">Start Game</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
