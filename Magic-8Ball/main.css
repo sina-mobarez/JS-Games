@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin: 10px 50px 10px 50px;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+.side {
+    flex: 30%;
+    background-color: #f5eec2;
+    padding: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main {
+    flex: 69%;
+    background-color: #f5eec2;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .row,
+    .navbar {
+        flex-direction: column;
+    }
+}
